@@ -4,7 +4,7 @@ A minimal, **ready-to-run** image classification project that uses **OpenCV** fo
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 opencv-image-classifier/
@@ -37,7 +37,7 @@ opencv-image-classifier/
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ### 0) Clone or download this project
 If you downloaded a zip, extract it and `cd` into the folder.
@@ -107,7 +107,7 @@ Windows PowerShell:
 
 ---
 
-## 📋 Command Reference
+## Command Reference
 
 **Training**
 ```
@@ -123,7 +123,7 @@ python src/predict.py   --image path/to/image.jpg   --model models/image_classif
 
 ---
 
-## 🧠 Notes & Tips
+## Notes & Tips
 
 - If images vary in orientation/quality, consider adding **augmentation** or using **HOG** features or a CNN for better performance.
 - If your dataset is small, try `--kernel rbf` and tune `--C` and `--gamma` on the SVM.
@@ -132,14 +132,14 @@ python src/predict.py   --image path/to/image.jpg   --model models/image_classif
 
 ---
 
-## 🧪 Reproducibility
+## Reproducibility
 
 - Scripts use a fixed `--random-state` by default.
 - Exact results may still vary if your data changes.
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 - **ImportError: No module named cv2** → `pip install opencv-python`
 - **Not enough images** → Ensure you have at least a few dozen images per class.
@@ -147,7 +147,7 @@ python src/predict.py   --image path/to/image.jpg   --model models/image_classif
 
 ---
 
-## 🐙 GitHub Setup (optional)
+## GitHub Setup (optional)
 
 1. Go to https://github.com
 2. New Repository → name it (e.g., `opencv-image-classifier`)
@@ -163,6 +163,3 @@ python src/predict.py   --image path/to/image.jpg   --model models/image_classif
    ```
 
 ---
-
-## 📚 License
-MIT
