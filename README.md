@@ -1,4 +1,4 @@
-# OpenCV Image Classifier (Cats vs Dogs example)
+# OpenCV Image Classifier 
 
 A minimal, **ready-to-run** image classification project that uses **OpenCV** for image loading/resizing and **scikit-learn** (SVM) for classification. Works for any 2–3 (or more) classes as long as you place your images into per-class folders.
 
